@@ -3,12 +3,12 @@
 
 <style type="text/css">	
     
-    /* @import "http://qa-www.pllcfiles.inautix.com/dojo/1.10.6.1/dijit/themes/soria/soria.css"; 
-	@import "http://qa-www.pllcfiles.inautix.com/dojo/1.10.6.1/dojox/grid/resources/soriaGrid.css"; */
-	@import "https://${cdnLoc}/dojo/${dojoVersion}/dijit/themes/soria/soria.css"; 
-	@import "https://${cdnLoc}/dojo/${dojoVersion}/dojox/grid/resources/soriaGrid.css";
-	
-	<link rel="stylesheet" href="/datamart/resources/css/datamart.css"/>
+     @import "http://ajax.googleapis.com/ajax/libs/dojo/1.4/dijit/themes/soria/soria.css"; 
+	@import "http://ajax.googleapis.com/ajax/libs/dojo/1.4/dojox/grid/resources/soriaGrid.css"; 
+/*	@import "https://${cdnLoc}/dojo/${dojoVersion}/dijit/themes/soria/soria.css"; 
+	@import "https://${cdnLoc}/dojo/${dojoVersion}/dojox/grid/resources/soriaGrid.css"; */
+	<script src="http://ajax.googleapis.com/ajax/libs/dojo/1.4/dojo/dojo.js" data-dojo-config="async: true"></scrip>
+	<link rel="stylesheet" href="/helloweb/resources/sample.css"/>
 </style>
 
 <body style="width:100%;">
